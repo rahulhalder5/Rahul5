@@ -223,7 +223,7 @@ px      68    160    252    */
 #right_image img {
 	width: 100%;
 	height: auto;
-	margin-top:-60%;
+	margin-top:-50%;
 	margin-left:20%;
 }
 #bottom_image img {
