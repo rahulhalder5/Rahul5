@@ -221,7 +221,7 @@ px      68    160    252    */
 #right_image img {
 	width: 100%;
 	height: auto;
-	margin-top:-60%;
+	margin-top:-50%;
 	margin-left:20%;
 }
 #bottom_image img {
@@ -406,7 +406,7 @@ px      68    160    252    344    436    */
 	margin-top: -40%;
 }
 #my_image img{
-	margin-top: -35%;
+	margin-top: -22%;
 }
 #third_left h2{
 	margin-top: -7%;
