@@ -10,9 +10,7 @@ px      68    160    252    344    436    528    620    712    804    896    */
 	width:1080px;
 	margin:0 auto;
 }
-#selectnav1{
-	display:none;
-}
+
 
 
 
@@ -30,13 +28,7 @@ px      68    160    252    344    436    528    620    712    */
 .mainweb{
 	width:100%;
 }
-#responsive_menu{
-	display:none;
-}
-#selectnav1{
-	display:block;
-	float:right;
-}
+
 #menu_wrapper {
   width: 100%;
   padding: 0;
@@ -177,13 +169,7 @@ px      68    160    252    */
 .mainweb{
 	width:100%;
 }
-#responsive_menu{
-	display:none;
-}
-#selectnav1{
-	display:block;
-	float:right;
-}
+
 #menu_wrapper {
   width: 100%;
   padding: 0;
@@ -368,13 +354,7 @@ px      68    160    252    344    436    */
 .mainweb{
 	width:100%;
 }
-#responsive_menu{
-	display:none;
-}
-#selectnav1{
-	display:block;
-	float:right;
-}
+
 #menu_wrapper {
   width: 100%;
   padding: 0;
