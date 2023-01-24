@@ -81,28 +81,6 @@ body{
 #nav_logo img{
 	width:80px;
 }
-#nav_menu{
-	width:820px;
-	float:left;
-}
-#nav_menu ul{
-	list-style-type:none;
-	margin-left:50px;
-	margin-top:15px;
-	float:right;
-}
-#nav_menu ul li{
-	float:left;
-}
-#nav_menu ul li a{
-	text-decoration:none;
-	color:white;
-	padding:10px 20px;
-	
-}
-#nav_menu ul li a:hover{
-	color:orange;
-}
 #social_icon{
 	position:fixed;
 	left:10px;
