@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=2">
 		<title>My Portfolio</title>
 		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="responsive.css" />
 		<link rel="icon" href="images/icon.png" />
 	</head>
 	<body>
@@ -18,23 +17,17 @@
 	</ul>
 		<div class="mainweb_wrapper menu_bg">
 			<div class="mainweb">
-				<nav>
-					<div id="menu_wrapper">
-						<div id="nav_logo">
-							<img src="images/R.png" alt="" />
-						</div>				
-						<div id="nav_menu">
-							<ul id="responsive_menu">
-								<li><a href="#">Home</a></li>
-								<li><a href="#about_section">About Me</a></li>
-								<li><a href="#fiveth_section">UI/UX</a></li>
-								<li><a href="#sixth_section">Landing Pages</a></li>
-								<li><a href="#seven_section">PHD TO HTML</a></li>
-								<li><a href="#contact_page">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>		
+				<div id="mySidebar" class="sidebar">
+					  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					  <a href="#fast_section">Home</a>
+					  <a href="#about_section">About</a>
+					  <a href="#fiveth_section">Services</a>
+					  <a href="#sixth_section">Landing Page</a>
+					  <a href="#contact_page">Contact</a>
+				</div>
+				<div id="main">
+					<button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+				</div>	
 			</div>
 		</div>		
 		<div class="mainweb_wrapper fastsection_bg">
@@ -331,6 +324,17 @@
 			</div>
 		</div>
 		<a class="jump_link" href="#fast_section">Go To Top</a>
+			<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
 	</body>
 <!--	
 	<div class="mainweb_wrapper">
@@ -340,21 +344,6 @@
 	</div>
 -->	
 
-		<!-- jQuery Min Version -->	
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" type="text/javascript" charset="utf-8"></script>	
-		
-<!--JS File For Responsive Menu -->	
-		<script src="js/responsive-menu.js"></script>
-		
-	<script>
-	  domready(function(){
-				selectnav('responsive_menu', {
-			label: 'Menu'
-		});
-		prettyPrint()
-			})
-	</script>
-<!--JS Files For Responsive Menu Ends Here -->
 
 
 
